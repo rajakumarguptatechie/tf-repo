@@ -29,11 +29,11 @@ provider "aws" {
 
 ## Input variables for access_key and secret_key
 variable "aws_access_key" {
-  description = "AWS Access Key"
+  description = "AWS access key"
   type        = string
 }
 variable "aws_secret_key" {
-  description = "AWS Secret Key"
+  description = "AWS secret key"
   type        = string
 }
 
