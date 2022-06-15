@@ -98,7 +98,7 @@ resource "aws_key_pair" "my-key" {
 
 ## Security groups with ingress (22,80) and egress (80,443) rules
 resource "aws_security_group" "my-sg" {
-  name        = "my-custom-sg"
+  name        = "my-custom-sg-01"
   description = "My Custom Rules"
 }
 resource "aws_security_group_rule" "ingress-ssh-rule" {
